@@ -11,6 +11,7 @@ service { 'ntp':
 ensure     => running,
   enable     => true,
   hasrestart => true,
+  provider => "init",
   # Subscribe to changes in the NTP configuration file
   subscribe => File['/etc/ntp.conf'],
 }
