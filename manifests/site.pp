@@ -40,5 +40,8 @@ my_module::manage_directory_and_file { 'example_directory_and_file':
   file_content   => "This is an example file content.\n",
 }
 
+node 'node1.example.com' {
+  include apache_module
+}
 
 #}
