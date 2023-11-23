@@ -35,7 +35,7 @@ define my_module::manage_directory_and_file (
 }
 # Using the defined resource type to manage a specific directory and file
 my_module::manage_directory_and_file { 'example_directory_and_file':
-  directory_path => '/path/to/directory',
+  directory_path => '/path_to_directory',
   file_name      => 'example.txt',
   file_content   => "This is an example file content.\n",
 }
