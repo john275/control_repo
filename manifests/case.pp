@@ -1,7 +1,4 @@
 $osfamily1 = $facts['os']['family']
-notify { 'OS':
-  message => "The operating system is ${osfamily1}",
-}
 case $osfamily1 {
   'RedHat', 'CentOS': {
     package { 'httpd':
