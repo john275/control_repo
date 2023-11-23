@@ -1,5 +1,5 @@
 class ntp_module {
-  package { 'ntpd':
+  package { 'ntp':
     ensure => installed,
   }
 
