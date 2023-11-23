@@ -1,9 +1,0 @@
-{
-  "name": "john275/apache_module",
-  "version": "1.0.0",
-  "dependencies": [],
-  "author": "Your Name",
-  "license": "Apache-2.0",
-  "summary": "A Puppet module to manage Apache web server",
-  "source": ""
-}

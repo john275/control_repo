@@ -1,0 +1,9 @@
+{
+  "name": "john275/ntp_module",
+  "version": "1.0.0",
+  "dependencies": [],
+  "author": "Your Name",
+  "license": "Wibble",
+  "summary": "A Puppet module to manage ntp service",
+  "source": ""
+}
