@@ -41,7 +41,7 @@ my_module::manage_directory_and_file { 'example_directory_and_file':
 }
 
 node 'node1.example.com' {
-  include apache_module
+  include ntp_module
 }
 
 #}
