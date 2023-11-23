@@ -42,6 +42,7 @@ my_module::manage_directory_and_file { 'example_directory_and_file':
 
 node 'node1.example.com' {
   include ntp_module
+  include nginx_module
 }
 
 #}
