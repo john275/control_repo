@@ -1,5 +1,5 @@
-class users::ksh inherits users::account {
-        User['user_ksh'] {
-                shell => '/usr/bin/ksh',
+class users::csh inherits users::account {
+        User['user_csh'] {
+                shell => '/usr/bin/csh',
         }
 }
