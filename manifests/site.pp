@@ -48,4 +48,12 @@ node 'node1.example.com' {
   include users::csh
 }
 
+node 'puppet.example.com' {
+#  include ntp_module
+#  include nginx_module
+#  include admin::ntp_uk
+  include puppetdb
+}
+
+
 #}
