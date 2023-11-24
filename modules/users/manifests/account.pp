@@ -3,7 +3,7 @@ class users::account {
     ensure => present,
     managehome => true,
   }
-  User {'user_ksh':
+  User {'user_csh':
     ensure => present,
     managehome => true,
   }
