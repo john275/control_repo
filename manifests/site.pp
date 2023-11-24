@@ -44,7 +44,7 @@ node 'node1.example.com' {
 #  include ntp_module
 #  include nginx_module
 #  include admin::ntp_uk
-  include users::noligin
+  include users::nologin
   include users::ksh
 }
 
