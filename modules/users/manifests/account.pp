@@ -1,5 +1,5 @@
 class users::account {
-  User {'user_noglin':
+  User {'user_nologin':
     ensure => present,
     managehome => true,
   }
